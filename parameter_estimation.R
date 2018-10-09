@@ -10,7 +10,7 @@ library(rgenoud)
 ##Extension to other values of M is trivial.
 
 ## Uncomment the following if you want to do SMAPVEX12 analysis
-source("input_file_paper1.R")
+#source("input_file_paper1.R")
 
 z11 <- z ## Save the value of z (SM value) to z11 before scaling as it will help while doing predictions
 z <- scale(z) ## Standardizing our SM data
